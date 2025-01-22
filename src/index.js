@@ -7,6 +7,7 @@ import Form from './Component/Form';
 import Registration from './Component/Registration';
 import Welcome from './Component/Welcome';
 import Modal from './Component/Modal';
+import ShowData from './Component/ShowData';
 
 const appRouting = createBrowserRouter([
        {
@@ -28,6 +29,10 @@ const appRouting = createBrowserRouter([
             {
               path: '/modal',
               element: <Modal/>
+            }, 
+            {
+              path: '/showdata',
+              element: <ShowData/>
             },           
          ]
        }

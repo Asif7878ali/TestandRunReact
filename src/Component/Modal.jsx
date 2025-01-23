@@ -35,7 +35,7 @@ const Modal = () => {
             onClick={toggleModal}
             className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
           >
-            Open Modal
+            Open Modal name
           </button>
           {modal && (
             <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
